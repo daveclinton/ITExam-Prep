@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 
-<body>
+<body class="flex flex-col min-h-screen">
     <div
         class="relative isolate flex items-center gap-x-6 overflow-hidden bg-gradient-to-r from-pink-500 via-red-500 to-yellow-400 px-6 py-2.5 after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10 sm:px-3.5 sm:before:flex-1">
         <div aria-hidden="true"
@@ -211,6 +211,58 @@
             </dialog>
         </el-dialog>
     </header>
+    <main class="flex-grow">
+        <div class="mx-auto max-w-7xl px-6 py-12 text-center">
+            <h1 class="text-3xl font-bold text-gray-900">Welcome to IT Exam Prep</h1>
+            <p class="mt-4 text-gray-600">Prepare for CompTIA, Cisco, AWS, and more with our curated resources.</p>
+        </div>
+    </main>
+    <footer class="mt-auto bg-gradient-to-r from-pink-500 via-red-500 to-yellow-400 text-white">
+        <div class="mx-auto max-w-screen-xl px-4 py-8 grid grid-cols-2 gap-8 md:grid-cols-4">
+            <div>
+                <h2 class="mb-4 text-sm font-semibold uppercase">Company</h2>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:underline">About</a></li>
+                    <li><a href="#" class="hover:underline">Careers</a></li>
+                    <li><a href="#" class="hover:underline">Blog</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="mb-4 text-sm font-semibold uppercase">Help Center</h2>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:underline">Support</a></li>
+                    <li><a href="#" class="hover:underline">Contact</a></li>
+                    <li><a href="#" class="hover:underline">Community</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="mb-4 text-sm font-semibold uppercase">Legal</h2>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:underline">Terms</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="mb-4 text-sm font-semibold uppercase">Resources</h2>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:underline">Exam Guides</a></li>
+                    <li><a href="#" class="hover:underline">Practice Tests</a></li>
+                    <li><a href="#" class="hover:underline">Downloads</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bg-white/10 py-4">
+            <div class="mx-auto max-w-screen-xl flex flex-col md:flex-row items-center justify-between px-4">
+                <span class="text-sm">&copy; 2025 IT Exam Prep. All Rights Reserved.</span>
+                <div class="flex mt-3 md:mt-0 space-x-4">
+                    <a href="#" class="hover:text-gray-200"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="hover:text-gray-200"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="hover:text-gray-200"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>
