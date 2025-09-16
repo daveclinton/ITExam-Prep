@@ -1,0 +1,20 @@
+.features h2 {
+    color: #1f1f22; /* adjust to your brand */
+}
+
+.feature-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card a {
+    text-decoration: none;
+}
+
+.feature-card a:hover {
+    text-decoration: underline;
+}

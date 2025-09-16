@@ -1,0 +1,27 @@
+.faq-section .illustration {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+.faq-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.faq-section .accordion-button {
+    background: #f8f9fa;
+    font-weight: 500;
+    border-radius: 6px;
+    color: var(--text-color);
+}
+
+.faq-section .accordion-button:not(.collapsed) {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.faq-section .accordion-item {
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}

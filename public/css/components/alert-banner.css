@@ -1,0 +1,8 @@
+.alert-banner {
+    background-color: #c8eef2;
+    color: #212529;
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    position: relative;
+    height: 70px;
+}

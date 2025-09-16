@@ -1,0 +1,23 @@
+<!-- We are building a responsive nursing exam preparation website using HTML, CSS, Bootstrap 5, and Laravel Blade templates. The design style includes:
+
+- Clean, modern UI with Bootstrap grid for responsiveness.
+- Components inside `.container` unless specified full-width.
+- Base styling uses CSS variables:
+  --primary-color: #0d6efd;
+  --secondary-color: #6c757d;
+  --background-color: #ffffff;
+  --text-color: #212529;
+  --font-family: "Helvetica Neue", Arial, sans-serif;
+- Header: Bootstrap navbar with logo, navigation links, and icons (Font Awesome).
+- Footer: Professional with links, contact info, and social icons.
+- Sections:
+  - **Categories Grid**: Blade loop rendering category cards (icon + title + subtitle), hover effect, no active state.
+  - **Courses Grid**: Cards with image, category label, title, instructor, duration, students, original price & discounted price.
+  - **Promotional Banner**: Rounded container with text on the left, colorful icons arranged randomly on the right.
+  - **FAQs**: Two-column layout (image left, Bootstrap accordion right), first FAQ open by default.
+- CSS uses:
+  - Rounded corners, soft shadows, hover effects.
+  - Minimal custom classes like `.category-card`, `.course-card`, `.faq-section`.
+- Font Awesome for icons.
+- Dynamic data handled via Blade loops (`@foreach`).
+- Fully mobile-responsive with Bootstrap breakpoints. -->

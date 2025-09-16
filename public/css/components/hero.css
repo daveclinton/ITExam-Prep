@@ -1,0 +1,71 @@
+.hero-section {
+    position: relative;
+    overflow: hidden;
+    background: url("../../hero-banner.png") no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section .row {
+    height: 100%;
+}
+
+.hero-image {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+}
+
+.hero-img {
+    height: 100%;
+    width: auto;
+    max-width: none;
+    object-fit: contain;
+    transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 992px) {
+    .hero-img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .hero-section {
+        height: auto;
+        padding: 3rem 1rem;
+    }
+
+    .hero-image {
+        margin-top: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section {
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-img {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 20px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+}

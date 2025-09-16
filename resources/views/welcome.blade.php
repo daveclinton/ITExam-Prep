@@ -1,0 +1,10 @@
+@extends('layouts.app')
+@section('title', 'NurseExamPro - Exam Preparation')
+@section('content')
+@include('components.hero-section')
+@include('components.categories')
+@include('components.exam-papers')
+@include('components.premium-banner')
+@include('components.stats-section')
+@include('components.testimonials')
+@endsection

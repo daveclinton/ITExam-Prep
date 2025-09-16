@@ -1,0 +1,39 @@
+.section-title {
+    color: var(--wgu-dark);
+    font-weight: 700;
+}
+
+.card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.card-title {
+    color: var(--wgu-blue);
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: var(--wgu-dark);
+}
+
+.btn-wgu {
+    background-color: var(--wgu-blue);
+    color: #fff;
+    border-radius: 2rem;
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.btn-wgu:hover {
+    background-color: #00497f;
+    color: #fff;
+}

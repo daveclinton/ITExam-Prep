@@ -1,0 +1,30 @@
+@import "./components/hero.css";
+@import "./components/navbar.css";
+@import "./components/categories.css";
+@import "./components/exam-paper.css";
+@import "./components/premium-banner.css";
+@import "./components/stats-section.css";
+@import "./components/testimonials.css";
+
+:root {
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --background-color: #ffffff;
+    --text-color: #212529;
+    --font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    line-height: 1.5;
+}
