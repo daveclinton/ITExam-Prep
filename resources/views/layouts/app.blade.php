@@ -211,11 +211,8 @@
             </dialog>
         </el-dialog>
     </header>
-    <main class="flex-grow">
-        <div class="mx-auto max-w-7xl px-6 py-12 text-center">
-            <h1 class="text-3xl font-bold text-gray-900">Welcome to IT Exam Prep</h1>
-            <p class="mt-4 text-gray-600">Prepare for CompTIA, Cisco, AWS, and more with our curated resources.</p>
-        </div>
+    <main class="flex-grow lg:py-10">
+        @yield('content')
     </main>
     <footer class="mt-auto bg-gradient-to-r from-pink-500 via-red-500 to-yellow-400 text-white">
         <div class="mx-auto max-w-screen-xl px-4 py-8 grid grid-cols-2 gap-8 md:grid-cols-4">
