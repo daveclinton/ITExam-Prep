@@ -11,7 +11,7 @@
 
 <body class="flex flex-col min-h-screen">
     <div id="alertBanner"
-        class="relative isolate flex items-center gap-x-6 overflow-hidden bg-gradient-to-r from-pink-500 via-red-500 to-yellow-400 px-6 py-2 after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10 sm:px-3.5 sm:before:flex-1">
+        class="relative isolate flex items-center gap-x-6 overflow-hidden bg-blue-800 px-6 py-2 after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10 sm:px-3.5 sm:before:flex-1">
         <div aria-hidden="true"
             class="absolute top-1/2 left-[max(-7rem,calc(50%-52rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl">
             <div style="clip-path: polygon(74.8% 41.9%, 97.2% 73.2%, 100% 34.9%, 92.5% 0.4%, 87.5% 0%, 75% 28.6%, 58.5% 54.6%, 50.1% 56.8%, 46.9% 44%, 48.3% 17.4%, 24.7% 53.9%, 0% 27.9%, 11.9% 74.2%, 24.9% 54.1%, 68.6% 100%, 74.8% 41.9%)"
@@ -214,7 +214,7 @@
     <main class="flex-grow lg:py-10">
         @yield('content')
     </main>
-    <footer class="mt-auto bg-gradient-to-r from-pink-500 via-red-500 to-yellow-400 text-white">
+    <footer class="mt-auto bg-blue-900  text-white">
         <div class="mx-auto max-w-screen-xl px-4 py-8 grid grid-cols-2 gap-8 md:grid-cols-4">
             <div>
                 <h2 class="mb-4 text-sm font-semibold uppercase">Company</h2>
