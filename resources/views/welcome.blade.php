@@ -276,12 +276,12 @@
     </section>
 
 
-    <div class="max-w-7xl mx-auto px-6 lg:px-0">
+    <section class="max-w-7xl mx-auto px-6 py-10 lg:px-0">
         <h2 class="text-3xl font-bold mb-4">Get started with GenAI</h2>
         <p class="text-gray-600 mb-6">
             Identify, develop, and execute impactful GenAI business strategies.
         </p>
-        <section class="py-10 grid md:grid-cols-3 gap-6">
+        <div class=" grid md:grid-cols-3 gap-6">
             <div class="bg-white border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
                 <div class="relative">
                     <img src="https://d15cw65ipctsrr.cloudfront.net/6a/c05066a6c844d88417b4f10e0c1d20/600x600px_586281171.jpg"
@@ -345,8 +345,20 @@
                 </div>
             </div>
 
-        </section>
-    </div>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 mt-10 text-center">
+        <a href="/explore/generative-ai"
+            class="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow hover:bg-blue-700 transition">
+            View all Exams
+            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-5 w-5" fill="none" viewBox="0 0 20 20"
+                stroke="currentColor">
+                <path fill="currentColor"
+                    d="M13.125 10.75H4.75a.728.728 0 01-.535-.214.72.72 0 01-.215-.532c0-.21.072-.39.215-.535a.72.72 0 01.535-.219h8.375L9.454 5.579a.721.721 0 01-.225-.527c0-.201.077-.382.23-.541a.745.745 0 011.058.006l4.954 4.96a.722.722 0 01.216.526.76.76 0 01-.052.282.692.692 0 01-.156.236l-4.958 4.958a.681.681 0 01-.521.219.776.776 0 01-.52-.23.766.766 0 01-.23-.544.71.71 0 01.23-.528l3.645-3.646z" />
+            </svg>
+        </a>
+    </section>
 
 
     <section class="bg-white py-12">
