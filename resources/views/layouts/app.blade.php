@@ -268,6 +268,33 @@
                 alertBanner.classList.add("hidden");
             });
         });
+        document.querySelectorAll(".faq-toggle").forEach(button => {
+            button.addEventListener("click", () => {
+                const content = button.nextElementSibling;
+                const icon = button.querySelector("svg");
+
+                if (content.classList.contains("max-h-0")) {
+                    content.classList.remove("max-h-0");
+                    content.classList.add("max-h-40");
+                    icon.classList.add("rotate-180");
+                } else {
+                    content.classList.add("max-h-0");
+                    content.classList.remove("max-h-40");
+                    icon.classList.remove("rotate-180");
+                }
+            });
+        });
+
+
+        const showMoreBtn = document.getElementById("show-more-btn");
+        const moreFaqs = document.getElementById("more-faqs");
+
+        showMoreBtn.addEventListener("click", () => {
+            moreFaqs.classList.toggle("hidden");
+            showMoreBtn.textContent = moreFaqs.classList.contains("hidden") ?
+                "Show all FAQs" :
+                "Show fewer FAQs";
+        });
     </script>
 
 </body>
