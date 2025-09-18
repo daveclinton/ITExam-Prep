@@ -37,12 +37,10 @@
                     Ace Your IT Exams<br>
                     with Confidence
                 </h1>
-
                 <p class="text-lg lg:text-xl mb-6 lg:mb-10 text-gray-700">
                     Practice with real exam-style questions and sharpen your skills
                     for certification success.
                 </p>
-
                 <div class="flex flex-col sm:flex-row gap-4 mb-6">
                     <div class="flex-1">
                         <input type="text" placeholder="Search for courses..."
@@ -53,7 +51,6 @@
                         Search
                     </button>
                 </div>
-
                 <p class="text-xs sm:text-sm text-gray-600">
                     Browse hundreds of IT exam prep courses with instant access.
                     <a href="#" class="underline text-blue-500 hover:text-blue-500">View All Courses</a>
@@ -279,6 +276,104 @@
     </section>
 
 
+    <div class="max-w-7xl mx-auto px-6 lg:px-0">
+        <h2 class="text-3xl font-bold mb-4">Get started with GenAI</h2>
+        <p class="text-gray-600 mb-6">
+            Identify, develop, and execute impactful GenAI business strategies.
+        </p>
+        <section class="py-10 grid md:grid-cols-3 gap-6">
+            <div class="bg-white border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+                <div class="relative">
+                    <img src="https://d15cw65ipctsrr.cloudfront.net/6a/c05066a6c844d88417b4f10e0c1d20/600x600px_586281171.jpg"
+                        alt="Building AI Agents" class="w-full h-40 object-cover">
+                    <span class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">Free Trial</span>
+                </div>
+                <div class="p-4">
+                    <div class="flex items-center space-x-2 mb-2">
+                        <img src="http://coursera-university-assets.s3.amazonaws.com/bb/f5ced2bdd4437aa79f00eb1bf7fbf0/IBM-Logo-Blk---Square.png"
+                            class="w-6 h-6 rounded border">
+                        <p class="text-sm text-gray-600">IBM</p>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-2">
+                        <a href="/specializations/building-ai-agents-and-agentic-workflows" class="hover:underline">
+                            Building AI Agents and Agentic Workflows
+                        </a>
+                    </h3>
+                    <p class="text-sm text-gray-500">Specialization</p>
+                </div>
+            </div>
+
+            <div class="bg-white border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+                <div class="relative">
+                    <img src="https://coursera-course-photos.s3.amazonaws.com/5a/a94305e9ab4856afac4a34f49c3eb5/juleswhite_3d_colorful_volumeric_vibrant_reflective_geometric_o_456c5b74-cce5-4ada-a75f-66af533f31bd-2.png"
+                        alt="Claude Code" class="w-full h-40 object-cover">
+                    <span class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">Free Trial</span>
+                </div>
+                <div class="p-4">
+                    <div class="flex items-center space-x-2 mb-2">
+                        <img src="http://coursera-university-assets.s3.amazonaws.com/89/63fef0315140268d5c0f66eee8e85e/VU_360x360.png"
+                            class="w-6 h-6 rounded border">
+                        <p class="text-sm text-gray-600">Vanderbilt University</p>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-2">
+                        <a href="/learn/claude-code" class="hover:underline">
+                            Claude Code: Software Engineering with Generative AI Agents
+                        </a>
+                    </h3>
+                    <p class="text-sm text-gray-500">Course</p>
+                </div>
+            </div>
+
+            <div class="bg-white border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+                <div class="relative">
+                    <img src="https://d15cw65ipctsrr.cloudfront.net/7d/66d977744a4a2d9a9594e517291e9f/AdobeStock_555641756.jpeg"
+                        alt="AWS Generative AI" class="w-full h-40 object-cover">
+                    <span class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">Free Trial</span>
+                </div>
+                <div class="p-4">
+                    <div class="flex items-center space-x-2 mb-2">
+                        <img src="http://coursera-university-assets.s3.amazonaws.com/a4/7cd68a658840ddbb95c38cdd0bbc8e/aws-logo-icon-PNG-Transparent-Background.png"
+                            class="w-6 h-6 rounded border">
+                        <p class="text-sm text-gray-600">Amazon Web Services</p>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-2">
+                        <a href="/professional-certificates/aws-generative-ai-developers" class="hover:underline">
+                            AWS Generative AI for Developers
+                        </a>
+                    </h3>
+                    <p class="text-sm text-gray-500">Professional Certificate</p>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+
+    <section class="bg-white py-12">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-6">
+            <div class="flex justify-center">
+                <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/6xXERT0XZPJDXgjPzr8Bve/d858e0cda1a5e5df2cb8accd65d5c1b7/outcomes.png?auto=format%2Ccompress&dpr=1&w=606&h=553&q=40"
+                    alt="Learner outcomes" class="w-full max-w-md md:max-w-lg rounded" />
+            </div>
+            <div class="space-y-6">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-900">
+                    Proven exam success
+                </h2>
+                <p class="text-gray-700">
+                    <strong>85% of learners report passing their IT certifications</strong>, after using our practice exams
+                    and study guides. Get the confidence you need to succeed.
+                </p>
+                <div>
+                    <button type="button"
+                        class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg shadow-md">
+                        Start Preparing
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <section class="py-20 bg-blue-50">
         <div class="mx-auto max-w-7xl px-10 lg:px-0">
             <h2 class="text-3xl font-semibold text-gray-900 mb-10">Invest in your career</h2>
@@ -325,29 +420,7 @@
         </div>
     </section>
 
-    <section class="bg-white py-12">
-        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-6">
-            <div class="flex justify-center">
-                <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/6xXERT0XZPJDXgjPzr8Bve/d858e0cda1a5e5df2cb8accd65d5c1b7/outcomes.png?auto=format%2Ccompress&dpr=1&w=606&h=553&q=40"
-                    alt="Learner outcomes" class="w-full max-w-md md:max-w-lg rounded" />
-            </div>
-            <div class="space-y-6">
-                <h2 class="text-2xl md:text-3xl font-bold text-gray-900">
-                    Proven exam success
-                </h2>
-                <p class="text-gray-700">
-                    <strong>85% of learners report passing their IT certifications</strong>, after using our practice exams
-                    and study guides. Get the confidence you need to succeed.
-                </p>
-                <div>
-                    <button type="button"
-                        class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg shadow-md">
-                        Start Preparing
-                    </button>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
 
 
