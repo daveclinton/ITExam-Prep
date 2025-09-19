@@ -432,6 +432,72 @@
         </div>
     </section>
 
+    <section class="bg-white py-16 px-6">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-3xl text-left font-bold text-gray-900 mb-10">Success stories</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <img src="https://images.ctfassets.net/00atxywtfxvd/69BoexTdu34VSQSlrBSCsg/085800d62591bfe9fcd09d1ef35a092b/rachel-ux-design-cert.2e16d0ba.fill-450x450.format-webp.webp"
+                            alt="Rachel L." class="w-16 h-16 rounded-full object-cover">
+                        <div>
+                            <p class="font-semibold text-gray-900">Rachel L.</p>
+                            <p class="text-sm text-gray-600">Google UX Design Professional Certificate</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">"I loved the process of going through the UX research... it gave me an
+                        appreciation for the pre-work that goes into a product before you start putting pixels together."
+                    </p>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <img src="https://images.ctfassets.net/00atxywtfxvd/2GzoqJoB4jZsOOmUM2anRV/5c5f2c1c3eb93b971b2eb15ff95d0717/luc-ux-design-certifi.2e16d0ba.fill-450x450.format-webp.webp"
+                            alt="Luc" class="w-16 h-16 rounded-full object-cover">
+                        <div>
+                            <p class="font-semibold text-gray-900">Luc</p>
+                            <p class="text-sm text-gray-600">Google UX Design Professional Certificate</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">"The Google UX Design Certificate has been extremely beneficial to my career. I
+                        landed a great job shortly after completion."</p>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <img src="https://images.ctfassets.net/00atxywtfxvd/40NYyizvhksLxeCH3n3VeX/b42a2121bfe4696f0a11edb709362991/success-story-slide.2e16d0ba.fill-450x450.format-webp.webp"
+                            alt="Daniel A." class="w-16 h-16 rounded-full object-cover">
+                        <div>
+                            <p class="font-semibold text-gray-900">Daniel A.</p>
+                            <p class="text-sm text-gray-600">Google IT Support Professional Certificate</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">"I love my new job. I think one of the most validating things in the world is
+                        recognizing that you've helped someone."</p>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                    <div class="flex items-center space-x-4 mb-4">
+                        <img src="https://images.ctfassets.net/00atxywtfxvd/5rAn9vvd6BPwFgwUpPxOQh/3fc51fd9e770850ad03b727e9d9d2649/lauren-project-manage.2e16d0ba.fill-450x450.format-webp.webp"
+                            alt="Lauren" class="w-16 h-16 rounded-full object-cover">
+                        <div>
+                            <p class="font-semibold text-gray-900">Lauren</p>
+                            <p class="text-sm text-gray-600">Google Project Management Professional Certificate</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700">"This program did what I was hoping for... reentry into the workforce and a new
+                        career."</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
     <section class="max-w-7xl mx-auto py-20">
         <div class="w-full bg-white shadow-md rounded-lg p-6">
             <h2 class="text-2xl font-bold mb-6">Frequently asked questions</h2>
