@@ -16,7 +16,7 @@
 
             </div>
             <div class="col-lg-8 hero-image">
-                <img src="{{ asset('logo.png') }}" alt="Nursing student studying" class="hero-img">
+                <img src="{{ asset('new-right-side.png') }}" alt="Nursing student studying" class="hero-img">
             </div>
         </div>
     </div>
