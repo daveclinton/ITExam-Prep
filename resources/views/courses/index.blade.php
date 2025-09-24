@@ -1,73 +1,71 @@
 @extends('layouts.app')
 
-@section('title', 'All Courses - Nursing Practice')
+@section('title', 'All Papers - IT Exam Practices')
 
 @section('content')
-
-    <section class="py-5 bg-light">
-        <div class="container">
-            <div class="row mb-4">
-                <div class="col-lg-12">
-                    <h2 class="mb-4 fw-bold">
-                        @if($selectedCategory)
-                            Showing results for
-                            <span class="text-primary">
-                                {{ strtoupper(str_replace('-', ' ', $selectedCategory)) }}
-                            </span>
-                        @else
-                            Explore Exam Preps
-                        @endif
-                    </h2>
+    <div class="space-y-4 max-w-3xl mx-auto p-4">
+        <div class="border rounded-lg p-4 bg-white shadow-sm flex flex-col md:flex-row md:justify-between">
+            <div class="flex space-x-3">
+                <img src="{{ asset('images/image-five.jpg') }}" alt="Exam Paper"
+                    class="rounded-md w-24 h-16 object-cover" />
+                <div>
+                    <p class="text-red-700 text-sm font-semibold">Cisco Certified Network Associate</p>
+                    <h2 class="text-lg font-bold">CCNA Practice Paper</h2>
+                    <div class="flex items-center space-x-1 mt-1">
+                        <span class="text-blue-600 text-sm">★★★★☆</span>
+                        <span class="text-xs text-gray-500">120 attempts</span>
+                    </div>
+                    <p class="mt-1 text-xs text-gray-600">
+                        Unlock CCNA exam practice questions with real-world scenarios to test your networking knowledge.
+                    </p>
+                    <button class="mt-2 px-2 py-1 border rounded text-xs text-gray-700 hover:bg-gray-50">
+                        Unlock Paper
+                    </button>
                 </div>
             </div>
-
-            <div class="row g-4">
-                @forelse($courses as $course)
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <a href="{{ route('courses.show', $course['id']) }}" class="text-decoration-none text-dark">
-                            <div class="card h-100 course-card border rounded-3 shadow-sm">
-                                <div class="position-relative">
-                                    <img src="{{ asset($course['image']) }}" class="card-img-top rounded-top"
-                                        alt="{{ $course['full_title'] }}">
-                                    <span
-                                        class="badge bg-primary position-absolute top-0 start-0 m-2">{{ $course['code'] }}</span>
-                                </div>
-                                <div class="card-body d-flex flex-column justify-content-between">
-                                    <h6 class="fw-semibold mb-2">{{ $course['full_title'] }}</h6>
-                                    <p class="text-muted small mb-3">{{ Str::limit($course['description'], 60) }}</p>
-
-                                    <div class="d-flex justify-content-between mb-2">
-                                        <small><i class="fas fa-file-alt me-1 text-primary"></i>
-                                            {{ $course['duration'] }}</small>
-                                        <small><i class="fas fa-user-graduate me-1 text-success"></i>
-                                            {{ $course['students'] }}</small>
-                                    </div>
-
-                                    <div class="d-flex justify-content-between align-items-center mt-auto">
-                                        <div class="price">
-                                            <span
-                                                class="text-muted text-decoration-line-through me-1">{{ $course['old_price'] }}</span>
-                                            <span class="fw-bold text-success">{{ $course['new_price'] }}</span>
-                                        </div>
-                                        <span class="badge bg-info">{{ $course['level'] }}</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                @empty
-                    <div class="col-12">
-                        <div class="alert alert-info text-center py-4">
-                            <i class="fas fa-info-circle me-2"></i>
-                            No courses found
-                            @if($selectedCategory)
-                                for <strong>{{ strtoupper(str_replace('-', ' ', $selectedCategory)) }}</strong>.
-                            @endif
-                            <a href="{{ route('courses.index') }}" class="fw-bold">Browse all courses</a>.
-                        </div>
-                    </div>
-                @endforelse
+            <div class="flex flex-col mt-3 md:mt-0 space-y-1 text-xs text-gray-700">
+                <div class="flex items-center space-x-1">
+                    <span>📚</span><span>50 Qs</span>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <span>⏱️</span><span>90 Min</span>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <span>📅</span><span>2025</span>
+                </div>
             </div>
         </div>
-    </section>
+
+        <div class="border rounded-lg p-4 bg-white shadow-sm flex flex-col md:flex-row md:justify-between">
+            <div class="flex space-x-3">
+                <img src="{{ asset('images/image-four.jpg') }}" alt="Exam Paper"
+                    class="rounded-md w-24 h-16 object-cover" />
+                <div>
+                    <span class="text-[10px] px-2 py-0.5 rounded bg-blue-100 text-blue-800 font-medium">Premium</span>
+                    <h2 class="text-lg font-bold mt-1">AWS Solutions Architect Paper</h2>
+                    <div class="flex items-center space-x-1 mt-1">
+                        <span class="text-blue-600 text-sm">★★★★★</span>
+                        <span class="text-xs text-gray-500">250 attempts</span>
+                    </div>
+                    <p class="mt-1 text-xs text-gray-600">
+                        Practice AWS Solutions Architect exam with scenario-based questions and detailed explanations.
+                    </p>
+                    <button class="mt-2 px-2 py-1 border rounded text-xs text-gray-700 hover:bg-gray-50">
+                        Unlock Paper
+                    </button>
+                </div>
+            </div>
+            <div class="flex flex-col mt-3 md:mt-0 space-y-1 text-xs text-gray-700">
+                <div class="flex items-center space-x-1">
+                    <span>📚</span><span>65 Qs</span>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <span>⏱️</span><span>130 Min</span>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <span>📅</span><span>2025</span>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection

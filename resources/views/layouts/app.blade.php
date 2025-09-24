@@ -51,7 +51,7 @@
     <header class="bg-white sticky top-0 z-50 shadow py-5">
         <nav aria-label="Global" class="mx-auto flex max-w-7xl items-center justify-between px-6 lg:px-8">
             <div class="flex lg:flex-1">
-                <a href="#" class="font-bold">
+                <a href="/" class="font-bold">
                     IT Exams Revision
                 </a>
             </div>
@@ -155,7 +155,7 @@
                     <el-dialog-panel
                         class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-200">
                         <div class="flex items-center justify-between">
-                            <a href="#" class="-m-1.5 p-1.5">
+                            <a href="/" class="-m-1.5 p-1.5">
                                 <span class="sr-only">IT Exams Revision</span>
                                 <img src="{{ asset('logo.png') }}" alt="Logo" class="h-8 w-auto" />
                             </a>
@@ -257,8 +257,6 @@
             </div>
         </div>
     </footer>
-
-
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const alertBanner = document.getElementById("alertBanner");

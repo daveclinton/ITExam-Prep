@@ -143,79 +143,64 @@
     </section>
 
     <section class="max-w-7xl mx-auto px-6 py-10 lg:px-2">
-        <h2 class="text-3xl font-bold mb-4">Get started with GenAI</h2>
+        <h2 class="text-3xl font-bold mb-4">Exam Revision Papers</h2>
         <p class="text-gray-600 mb-6">
-            Identify, develop, and execute impactful GenAI business strategies.
+            Unlock premium practice papers to prepare effectively for your exams.
         </p>
-        <div class=" grid md:grid-cols-3 gap-6">
-            <div class="bg-white border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
-                <div class="relative">
-                    <img src="https://d15cw65ipctsrr.cloudfront.net/6a/c05066a6c844d88417b4f10e0c1d20/600x600px_586281171.jpg"
-                        alt="Building AI Agents" class="w-full h-40 object-cover">
-                    <span class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">Free Trial</span>
-                </div>
-                <div class="p-4">
-                    <div class="flex items-center space-x-2 mb-2">
-                        <img src="http://coursera-university-assets.s3.amazonaws.com/bb/f5ced2bdd4437aa79f00eb1bf7fbf0/IBM-Logo-Blk---Square.png"
-                            class="w-6 h-6 rounded border">
-                        <p class="text-sm text-gray-600">IBM</p>
-                    </div>
-                    <h3 class="font-semibold text-lg mb-2">
-                        <a href="/specializations/building-ai-agents-and-agentic-workflows" class="hover:underline">
-                            Building AI Agents and Agentic Workflows
-                        </a>
-                    </h3>
-                    <p class="text-sm text-gray-500">Specialization</p>
-                </div>
-            </div>
 
-            <div class="bg-white border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+        <div class="grid md:grid-cols-3 gap-6">
+            <a href="/courses/ccna-practice"
+                class="block bg-white border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
                 <div class="relative">
-                    <img src="https://coursera-course-photos.s3.amazonaws.com/5a/a94305e9ab4856afac4a34f49c3eb5/juleswhite_3d_colorful_volumeric_vibrant_reflective_geometric_o_456c5b74-cce5-4ada-a75f-66af533f31bd-2.png"
-                        alt="Claude Code" class="w-full h-40 object-cover">
-                    <span class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">Free Trial</span>
+                    <img src="{{ asset('images/claude.png') }}" alt="CCNA Paper" class="w-full h-40 object-cover">
+                    <span class="absolute top-2 left-2 bg-blue-600 text-white text-xs px-2 py-1 rounded">$9.99</span>
                 </div>
                 <div class="p-4">
                     <div class="flex items-center space-x-2 mb-2">
-                        <img src="http://coursera-university-assets.s3.amazonaws.com/89/63fef0315140268d5c0f66eee8e85e/VU_360x360.png"
-                            class="w-6 h-6 rounded border">
-                        <p class="text-sm text-gray-600">Vanderbilt University</p>
+                        <img src="{{ asset('images/claude.png') }}" class="w-6 h-6 rounded border">
+                        <p class="text-sm text-gray-600">Cisco</p>
                     </div>
-                    <h3 class="font-semibold text-lg mb-2">
-                        <a href="/learn/claude-code" class="hover:underline">
-                            Claude Code: Software Engineering with Generative AI Agents
-                        </a>
-                    </h3>
-                    <p class="text-sm text-gray-500">Course</p>
+                    <h3 class="font-semibold text-lg mb-2">CCNA Practice Paper</h3>
+                    <p class="text-sm text-gray-500">50 Questions • 90 Minutes</p>
                 </div>
-            </div>
-
-            <div class="bg-white border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+            </a>
+            <a href="/courses/aws-solutions-architect"
+                class="block bg-white border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
                 <div class="relative">
-                    <img src="https://d15cw65ipctsrr.cloudfront.net/7d/66d977744a4a2d9a9594e517291e9f/AdobeStock_555641756.jpeg"
-                        alt="AWS Generative AI" class="w-full h-40 object-cover">
-                    <span class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded">Free Trial</span>
+                    <img src="{{ asset('images/aws.jpg') }}" alt="AWS Paper" class="w-full h-40 object-cover">
+                    <span class="absolute top-2 left-2 bg-blue-600 text-white text-xs px-2 py-1 rounded">$14.99</span>
                 </div>
                 <div class="p-4">
                     <div class="flex items-center space-x-2 mb-2">
-                        <img src="http://coursera-university-assets.s3.amazonaws.com/a4/7cd68a658840ddbb95c38cdd0bbc8e/aws-logo-icon-PNG-Transparent-Background.png"
-                            class="w-6 h-6 rounded border">
+                        <img src="{{ asset('images/aws.jpg') }}" class="w-6 h-6 rounded border">
                         <p class="text-sm text-gray-600">Amazon Web Services</p>
                     </div>
-                    <h3 class="font-semibold text-lg mb-2">
-                        <a href="/professional-certificates/aws-generative-ai-developers" class="hover:underline">
-                            AWS Generative AI for Developers
-                        </a>
-                    </h3>
-                    <p class="text-sm text-gray-500">Professional Certificate</p>
+                    <h3 class="font-semibold text-lg mb-2">AWS Solutions Architect Paper</h3>
+                    <p class="text-sm text-gray-500">65 Questions • 130 Minutes</p>
                 </div>
-            </div>
+            </a>
+            <a href="/courses/azure-fundamentals"
+                class="block bg-white border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
+                <div class="relative">
+                    <img src="{{ asset('images/assets.jpg') }}" alt="Azure Paper" class="w-full h-40 object-cover">
+                    <span class="absolute top-2 left-2 bg-blue-600 text-white text-xs px-2 py-1 rounded">$12.99</span>
+                </div>
+                <div class="p-4">
+                    <div class="flex items-center space-x-2 mb-2">
+                        <img src="{{ asset('images/assets.jpg') }}" class="w-6 h-6 rounded border">
+                        <p class="text-sm text-gray-600">Microsoft</p>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-2">Azure Fundamentals Paper</h3>
+                    <p class="text-sm text-gray-500">40 Questions • 60 Minutes</p>
+                </div>
+            </a>
 
         </div>
     </section>
 
+
     <section class="max-w-7xl mx-auto px-6 mt-10 text-center">
-        <a href="/explore/generative-ai"
+        <a href="/courses"
             class="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow hover:bg-blue-700 transition">
             View all Exams
             <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-5 w-5" fill="none" viewBox="0 0 20 20"
@@ -230,8 +215,8 @@
     <section class="bg-white py-12">
         <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-6">
             <div class="flex justify-center">
-                <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/6xXERT0XZPJDXgjPzr8Bve/d858e0cda1a5e5df2cb8accd65d5c1b7/outcomes.png?auto=format%2Ccompress&dpr=1&w=606&h=553&q=40"
-                    alt="Learner outcomes" class="w-full max-w-md md:max-w-lg rounded" />
+                <img src="{{ asset('images/learner-outcomes.png') }}" alt="Learner outcomes"
+                    class="w-full max-w-md md:max-w-lg rounded" />
             </div>
             <div class="space-y-6">
                 <h2 class="text-2xl md:text-3xl font-bold text-gray-900">
@@ -304,11 +289,12 @@
 
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
-                    <!-- Slide 1 -->
+
                     <div class="swiper-slide">
                         <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
                             <div class="flex items-center space-x-4 mb-4">
-                                <img src="https://picsum.photos/100?random=1" class="w-16 h-16 rounded-full object-cover">
+                                <img src="{{ asset('images/imgi_10_100.jpg') }}"
+                                    class="w-16 h-16 rounded-full object-cover">
                                 <div>
                                     <p class="font-semibold text-gray-900">Rachel L.</p>
                                     <p class="text-sm text-gray-600">Google UX Design Certificate</p>
@@ -318,11 +304,12 @@
                         </div>
                     </div>
 
-                    <!-- Slide 2 -->
+
                     <div class="swiper-slide">
                         <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
                             <div class="flex items-center space-x-4 mb-4">
-                                <img src="https://picsum.photos/100?random=2" class="w-16 h-16 rounded-full object-cover">
+                                <img src="{{ asset('images/imgi_11_100.jpg') }}"
+                                    class="w-16 h-16 rounded-full object-cover">
                                 <div>
                                     <p class="font-semibold text-gray-900">Luc</p>
                                     <p class="text-sm text-gray-600">Google UX Design Certificate</p>
@@ -332,11 +319,12 @@
                         </div>
                     </div>
 
-                    <!-- Slide 3 -->
+
                     <div class="swiper-slide">
                         <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
                             <div class="flex items-center space-x-4 mb-4">
-                                <img src="https://picsum.photos/100?random=3" class="w-16 h-16 rounded-full object-cover">
+                                <img src="{{ asset('images/imgi_12_100.jpg') }}"
+                                    class="w-16 h-16 rounded-full object-cover">
                                 <div>
                                     <p class="font-semibold text-gray-900">Daniel A.</p>
                                     <p class="text-sm text-gray-600">Google IT Support Certificate</p>
@@ -346,11 +334,12 @@
                         </div>
                     </div>
 
-                    <!-- Slide 4 -->
+
                     <div class="swiper-slide">
                         <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
                             <div class="flex items-center space-x-4 mb-4">
-                                <img src="https://picsum.photos/100?random=4" class="w-16 h-16 rounded-full object-cover">
+                                <img src="{{ asset('images/imgi_13_100.jpg') }}"
+                                    class="w-16 h-16 rounded-full object-cover">
                                 <div>
                                     <p class="font-semibold text-gray-900">Lauren</p>
                                     <p class="text-sm text-gray-600">Google Project Management Certificate</p>
@@ -360,11 +349,12 @@
                         </div>
                     </div>
 
-                    <!-- Slide 5 -->
+
                     <div class="swiper-slide">
                         <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
                             <div class="flex items-center space-x-4 mb-4">
-                                <img src="https://picsum.photos/100?random=5" class="w-16 h-16 rounded-full object-cover">
+                                <img src="{{ asset('images/imgi_14_100.jpg') }}"
+                                    class="w-16 h-16 rounded-full object-cover">
                                 <div>
                                     <p class="font-semibold text-gray-900">Michael</p>
                                     <p class="text-sm text-gray-600">Google Data Analytics Certificate</p>
@@ -374,11 +364,12 @@
                         </div>
                     </div>
 
-                    <!-- Slide 6 -->
+
                     <div class="swiper-slide">
                         <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
                             <div class="flex items-center space-x-4 mb-4">
-                                <img src="https://picsum.photos/100?random=6" class="w-16 h-16 rounded-full object-cover">
+                                <img src="{{ asset('images/imgi_15_100.jpg') }}"
+                                    class="w-16 h-16 rounded-full object-cover">
                                 <div>
                                     <p class="font-semibold text-gray-900">Sophia</p>
                                     <p class="text-sm text-gray-600">Google UX Design Certificate</p>
@@ -388,11 +379,12 @@
                         </div>
                     </div>
 
-                    <!-- Slide 7 -->
+
                     <div class="swiper-slide">
                         <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
                             <div class="flex items-center space-x-4 mb-4">
-                                <img src="https://picsum.photos/100?random=7" class="w-16 h-16 rounded-full object-cover">
+                                <img src="{{ asset('images/imgi_16_100.jpg') }}"
+                                    class="w-16 h-16 rounded-full object-cover">
                                 <div>
                                     <p class="font-semibold text-gray-900">David</p>
                                     <p class="text-sm text-gray-600">Google IT Automation Certificate</p>
@@ -402,11 +394,12 @@
                         </div>
                     </div>
 
-                    <!-- Slide 8 -->
+
                     <div class="swiper-slide">
                         <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
                             <div class="flex items-center space-x-4 mb-4">
-                                <img src="https://picsum.photos/100?random=8" class="w-16 h-16 rounded-full object-cover">
+                                <img src="{{ asset('images/imgi_17_100.jpg') }}"
+                                    class="w-16 h-16 rounded-full object-cover">
                                 <div>
                                     <p class="font-semibold text-gray-900">Amelia</p>
                                     <p class="text-sm text-gray-600">Google Data Analytics Certificate</p>
@@ -416,11 +409,12 @@
                         </div>
                     </div>
 
-                    <!-- Slide 9 -->
+
                     <div class="swiper-slide">
                         <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
                             <div class="flex items-center space-x-4 mb-4">
-                                <img src="https://picsum.photos/100?random=9" class="w-16 h-16 rounded-full object-cover">
+                                <img src="{{ asset('images/imgi_18_100.jpg') }}"
+                                    class="w-16 h-16 rounded-full object-cover">
                                 <div>
                                     <p class="font-semibold text-gray-900">Ethan</p>
                                     <p class="text-sm text-gray-600">Google UX Design Certificate</p>
@@ -430,11 +424,12 @@
                         </div>
                     </div>
 
-                    <!-- Slide 10 -->
+
                     <div class="swiper-slide">
                         <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
                             <div class="flex items-center space-x-4 mb-4">
-                                <img src="https://picsum.photos/100?random=10" class="w-16 h-16 rounded-full object-cover">
+                                <img src="{{ asset('images/imgi_18_100.jpg') }}"
+                                    class="w-16 h-16 rounded-full object-cover">
                                 <div>
                                     <p class="font-semibold text-gray-900">Olivia</p>
                                     <p class="text-sm text-gray-600">Google Project Management Certificate</p>
