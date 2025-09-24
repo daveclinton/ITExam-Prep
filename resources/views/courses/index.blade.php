@@ -18,9 +18,12 @@
                     <p class="mt-1 text-xs text-gray-600">
                         Unlock CCNA exam practice questions with real-world scenarios to test your networking knowledge.
                     </p>
-                    <button class="mt-2 px-2 py-1 border rounded text-xs text-gray-700 hover:bg-gray-50">
-                        Unlock Paper
-                    </button>
+                    <div class="mt-2 flex items-center space-x-3">
+                        <span class="text-sm font-semibold text-green-700">$9.99</span>
+                        <button class="px-2 py-1 border rounded text-xs text-gray-700 hover:bg-gray-50">
+                            Unlock Paper
+                        </button>
+                    </div>
                 </div>
             </div>
             <div class="flex flex-col mt-3 md:mt-0 space-y-1 text-xs text-gray-700">
@@ -35,7 +38,6 @@
                 </div>
             </div>
         </div>
-
         <div class="border rounded-lg p-4 bg-white shadow-sm flex flex-col md:flex-row md:justify-between">
             <div class="flex space-x-3">
                 <img src="{{ asset('images/image-four.jpg') }}" alt="Exam Paper"
@@ -50,9 +52,12 @@
                     <p class="mt-1 text-xs text-gray-600">
                         Practice AWS Solutions Architect exam with scenario-based questions and detailed explanations.
                     </p>
-                    <button class="mt-2 px-2 py-1 border rounded text-xs text-gray-700 hover:bg-gray-50">
-                        Unlock Paper
-                    </button>
+                    <div class="mt-2 flex items-center space-x-3">
+                        <span class="text-sm font-semibold text-green-700">$14.99</span>
+                        <button class="px-2 py-1 border rounded text-xs text-gray-700 hover:bg-gray-50">
+                            Unlock Paper
+                        </button>
+                    </div>
                 </div>
             </div>
             <div class="flex flex-col mt-3 md:mt-0 space-y-1 text-xs text-gray-700">

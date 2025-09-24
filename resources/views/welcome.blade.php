@@ -149,7 +149,7 @@
         </p>
 
         <div class="grid md:grid-cols-3 gap-6">
-            <a href="/courses/ccna-practice"
+            <a href="/courses/nclex-rn"
                 class="block bg-white border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
                 <div class="relative">
                     <img src="{{ asset('images/claude.png') }}" alt="CCNA Paper" class="w-full h-40 object-cover">
@@ -164,7 +164,7 @@
                     <p class="text-sm text-gray-500">50 Questions • 90 Minutes</p>
                 </div>
             </a>
-            <a href="/courses/aws-solutions-architect"
+            <a href="/courses/nclex-pn"
                 class="block bg-white border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
                 <div class="relative">
                     <img src="{{ asset('images/aws.jpg') }}" alt="AWS Paper" class="w-full h-40 object-cover">
@@ -179,7 +179,7 @@
                     <p class="text-sm text-gray-500">65 Questions • 130 Minutes</p>
                 </div>
             </a>
-            <a href="/courses/azure-fundamentals"
+            <a href="/courses/hesi"
                 class="block bg-white border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
                 <div class="relative">
                     <img src="{{ asset('images/assets.jpg') }}" alt="Azure Paper" class="w-full h-40 object-cover">
