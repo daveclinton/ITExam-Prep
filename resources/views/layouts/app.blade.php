@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body class="flex flex-col min-h-screen">
@@ -210,44 +212,44 @@
     <main class="flex-grow lg:py-10">
         @yield('content')
     </main>
-    <footer class="mt-auto bg-blue-600  text-white">
-        <div class="mx-auto max-w-screen-xl px-4 py-8 grid grid-cols-2 gap-8 md:grid-cols-4">
+    <footer class="mt-auto bg-gradient-to-r from-blue-800 to-indigo-900 text-white">
+        <div class="mx-auto max-w-screen-xl px-6 py-16 grid grid-cols-2 gap-12 md:grid-cols-4">
             <div>
-                <h2 class="mb-4 text-sm font-semibold uppercase">Company</h2>
-                <ul class="space-y-2 text-sm">
+                <h2 class="mb-6 text-base font-semibold uppercase">Company</h2>
+                <ul class="space-y-3 text-base">
                     <li><a href="#" class="hover:underline">About</a></li>
                     <li><a href="#" class="hover:underline">Careers</a></li>
                     <li><a href="#" class="hover:underline">Blog</a></li>
                 </ul>
             </div>
             <div>
-                <h2 class="mb-4 text-sm font-semibold uppercase">Help Center</h2>
-                <ul class="space-y-2 text-sm">
+                <h2 class="mb-6 text-base font-semibold uppercase">Help Center</h2>
+                <ul class="space-y-3 text-base">
                     <li><a href="#" class="hover:underline">Support</a></li>
                     <li><a href="#" class="hover:underline">Contact</a></li>
                     <li><a href="#" class="hover:underline">Community</a></li>
                 </ul>
             </div>
             <div>
-                <h2 class="mb-4 text-sm font-semibold uppercase">Legal</h2>
-                <ul class="space-y-2 text-sm">
+                <h2 class="mb-6 text-base font-semibold uppercase">Legal</h2>
+                <ul class="space-y-3 text-base">
                     <li><a href="#" class="hover:underline">Privacy Policy</a></li>
                     <li><a href="#" class="hover:underline">Terms</a></li>
                 </ul>
             </div>
             <div>
-                <h2 class="mb-4 text-sm font-semibold uppercase">Resources</h2>
-                <ul class="space-y-2 text-sm">
+                <h2 class="mb-6 text-base font-semibold uppercase">Resources</h2>
+                <ul class="space-y-3 text-base">
                     <li><a href="#" class="hover:underline">Exam Guides</a></li>
                     <li><a href="#" class="hover:underline">Practice Tests</a></li>
                     <li><a href="#" class="hover:underline">Downloads</a></li>
                 </ul>
             </div>
         </div>
-        <div class="bg-white/10 py-4">
-            <div class="mx-auto max-w-screen-xl flex flex-col md:flex-row items-center justify-between px-4">
-                <span class="text-sm">&copy; 2025 IT Exam Prep. All Rights Reserved.</span>
-                <div class="flex mt-3 md:mt-0 space-x-4">
+        <div class="bg-white/10 py-6">
+            <div class="mx-auto max-w-screen-xl flex flex-col md:flex-row items-center justify-between px-6">
+                <span class="text-base">&copy; 2025 IT Exam Prep. All Rights Reserved.</span>
+                <div class="flex mt-4 md:mt-0 space-x-6 text-lg">
                     <a href="#" class="hover:text-gray-200"><i class="fab fa-facebook-f"></i></a>
                     <a href="#" class="hover:text-gray-200"><i class="fab fa-twitter"></i></a>
                     <a href="#" class="hover:text-gray-200"><i class="fab fa-github"></i></a>
@@ -255,6 +257,7 @@
             </div>
         </div>
     </footer>
+
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
@@ -292,8 +295,27 @@
                 "Show all FAQs" :
                 "Show fewer FAQs";
         });
+        const swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+            autoplay: {
+                delay: 1000,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1
+                },
+                1024: {
+                    slidesPerView: 3
+                },
+                1440: {
+                    slidesPerView: 4
+                },
+            }
+        });
     </script>
-
 </body>
 
 </html>

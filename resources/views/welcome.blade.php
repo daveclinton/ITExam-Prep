@@ -301,132 +301,154 @@
     <section class="bg-white py-16 px-6">
         <div class="max-w-7xl mx-auto">
             <h2 class="text-3xl text-left font-bold text-gray-900 mb-10">Success stories</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-                <!-- Testimonial 1 -->
-                <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
-                    <div class="flex items-center space-x-4 mb-4">
-                        <img src="https://images.ctfassets.net/00atxywtfxvd/69BoexTdu34VSQSlrBSCsg/085800d62591bfe9fcd09d1ef35a092b/rachel-ux-design-cert.2e16d0ba.fill-450x450.format-webp.webp"
-                            alt="Rachel L." class="w-16 h-16 rounded-full object-cover">
-                        <div>
-                            <p class="font-semibold text-gray-900">Rachel L.</p>
-                            <p class="text-sm text-gray-600">Google UX Design Professional Certificate</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-700">"I loved the process of going through the UX research... it gave me an
-                        appreciation for the pre-work that goes into a product before you start putting pixels together."
-                    </p>
-                </div>
 
-                <!-- Testimonial 2 -->
-                <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
-                    <div class="flex items-center space-x-4 mb-4">
-                        <img src="https://images.ctfassets.net/00atxywtfxvd/2GzoqJoB4jZsOOmUM2anRV/5c5f2c1c3eb93b971b2eb15ff95d0717/luc-ux-design-certifi.2e16d0ba.fill-450x450.format-webp.webp"
-                            alt="Luc" class="w-16 h-16 rounded-full object-cover">
-                        <div>
-                            <p class="font-semibold text-gray-900">Luc</p>
-                            <p class="text-sm text-gray-600">Google UX Design Professional Certificate</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-700">"The Google UX Design Certificate has been extremely beneficial to my career. I
-                        landed a great job shortly after completion."</p>
-                </div>
-
-                <!-- Testimonial 3 -->
-                <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
-                    <div class="flex items-center space-x-4 mb-4">
-                        <img src="https://images.ctfassets.net/00atxywtfxvd/40NYyizvhksLxeCH3n3VeX/b42a2121bfe4696f0a11edb709362991/success-story-slide.2e16d0ba.fill-450x450.format-webp.webp"
-                            alt="Daniel A." class="w-16 h-16 rounded-full object-cover">
-                        <div>
-                            <p class="font-semibold text-gray-900">Daniel A.</p>
-                            <p class="text-sm text-gray-600">Google IT Support Professional Certificate</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-700">"I love my new job. I think one of the most validating things in the world is
-                        recognizing that you've helped someone."</p>
-                </div>
-
-                <!-- Testimonial 4 -->
-                <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
-                    <div class="flex items-center space-x-4 mb-4">
-                        <img src="https://images.ctfassets.net/00atxywtfxvd/5rAn9vvd6BPwFgwUpPxOQh/3fc51fd9e770850ad03b727e9d9d2649/lauren-project-manage.2e16d0ba.fill-450x450.format-webp.webp"
-                            alt="Lauren" class="w-16 h-16 rounded-full object-cover">
-                        <div>
-                            <p class="font-semibold text-gray-900">Lauren</p>
-                            <p class="text-sm text-gray-600">Google Project Management Professional Certificate</p>
-                        </div>
-                    </div>
-                    <p class="text-gray-700">"This program did what I was hoping for... reentry into the workforce and a new
-                        career."</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-    <section class="max-w-7xl mx-auto py-20">
-        <div class="w-full bg-white shadow-md rounded-lg p-6">
-            <h2 class="text-2xl font-bold mb-6">Frequently asked questions</h2>
-            <div id="faq-list" class="space-y-4">
-                <div class="border rounded-lg overflow-hidden">
-                    <button
-                        class="w-full flex justify-between items-center p-4 text-left font-medium text-gray-800 hover:bg-gray-50 faq-toggle">
-                        <span>Can I try Coursera Plus first?</span>
-                        <svg class="w-5 h-5 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg"
-                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                        </svg>
-                    </button>
-                    <div class="max-h-0 overflow-hidden transition-all duration-300 faq-content">
-                        <div class="p-4 text-gray-600">
-                            Yes! You can start with a 7-day free trial (monthly plan) or request a refund within 14 days
-                            (annual
-                            plan).
-                        </div>
-                    </div>
-                </div>
-                <div class="border rounded-lg overflow-hidden">
-                    <button
-                        class="w-full flex justify-between items-center p-4 text-left font-medium text-gray-800 hover:bg-gray-50 faq-toggle">
-                        <span>What is included in Coursera Plus?</span>
-                        <svg class="w-5 h-5 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg"
-                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                        </svg>
-                    </button>
-                    <div class="max-h-0 overflow-hidden transition-all duration-300 faq-content">
-                        <div class="p-4 text-gray-600">
-                            You get unlimited access to 10,000+ courses, Projects, Specializations, and Professional
-                            Certificates.
-                        </div>
-                    </div>
-                </div>
-                <div id="more-faqs" class="hidden space-y-4">
-                    <div class="border rounded-lg overflow-hidden">
-                        <button
-                            class="w-full flex justify-between items-center p-4 text-left font-medium text-gray-800 hover:bg-gray-50 faq-toggle">
-                            <span>Will I save money with Coursera Plus?</span>
-                            <svg class="w-5 h-5 transform transition-transform duration-300"
-                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                            </svg>
-                        </button>
-                        <div class="max-h-0 overflow-hidden transition-all duration-300 faq-content">
-                            <div class="p-4 text-gray-600">
-                                Yes. If you take multiple courses, you could save up to 30% per month.
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                            <div class="flex items-center space-x-4 mb-4">
+                                <img src="https://picsum.photos/100?random=1" class="w-16 h-16 rounded-full object-cover">
+                                <div>
+                                    <p class="font-semibold text-gray-900">Rachel L.</p>
+                                    <p class="text-sm text-gray-600">Google UX Design Certificate</p>
+                                </div>
                             </div>
+                            <p class="text-gray-700">"I loved the process of going through the UX research..."</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                            <div class="flex items-center space-x-4 mb-4">
+                                <img src="https://picsum.photos/100?random=2" class="w-16 h-16 rounded-full object-cover">
+                                <div>
+                                    <p class="font-semibold text-gray-900">Luc</p>
+                                    <p class="text-sm text-gray-600">Google UX Design Certificate</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-700">"The program was extremely beneficial to my career..."</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                            <div class="flex items-center space-x-4 mb-4">
+                                <img src="https://picsum.photos/100?random=3" class="w-16 h-16 rounded-full object-cover">
+                                <div>
+                                    <p class="font-semibold text-gray-900">Daniel A.</p>
+                                    <p class="text-sm text-gray-600">Google IT Support Certificate</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-700">"I love my new job and the impact I can make."</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide">
+                        <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                            <div class="flex items-center space-x-4 mb-4">
+                                <img src="https://picsum.photos/100?random=4" class="w-16 h-16 rounded-full object-cover">
+                                <div>
+                                    <p class="font-semibold text-gray-900">Lauren</p>
+                                    <p class="text-sm text-gray-600">Google Project Management Certificate</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-700">"This program helped me reenter the workforce with confidence."</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 5 -->
+                    <div class="swiper-slide">
+                        <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                            <div class="flex items-center space-x-4 mb-4">
+                                <img src="https://picsum.photos/100?random=5" class="w-16 h-16 rounded-full object-cover">
+                                <div>
+                                    <p class="font-semibold text-gray-900">Michael</p>
+                                    <p class="text-sm text-gray-600">Google Data Analytics Certificate</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-700">"The skills I gained opened up new opportunities in my career."</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 6 -->
+                    <div class="swiper-slide">
+                        <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                            <div class="flex items-center space-x-4 mb-4">
+                                <img src="https://picsum.photos/100?random=6" class="w-16 h-16 rounded-full object-cover">
+                                <div>
+                                    <p class="font-semibold text-gray-900">Sophia</p>
+                                    <p class="text-sm text-gray-600">Google UX Design Certificate</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-700">"I built real projects that prepared me for client work."</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 7 -->
+                    <div class="swiper-slide">
+                        <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                            <div class="flex items-center space-x-4 mb-4">
+                                <img src="https://picsum.photos/100?random=7" class="w-16 h-16 rounded-full object-cover">
+                                <div>
+                                    <p class="font-semibold text-gray-900">David</p>
+                                    <p class="text-sm text-gray-600">Google IT Automation Certificate</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-700">"Automation skills gave me a strong edge in the job market."</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 8 -->
+                    <div class="swiper-slide">
+                        <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                            <div class="flex items-center space-x-4 mb-4">
+                                <img src="https://picsum.photos/100?random=8" class="w-16 h-16 rounded-full object-cover">
+                                <div>
+                                    <p class="font-semibold text-gray-900">Amelia</p>
+                                    <p class="text-sm text-gray-600">Google Data Analytics Certificate</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-700">"I transitioned into data science roles with this foundation."</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 9 -->
+                    <div class="swiper-slide">
+                        <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                            <div class="flex items-center space-x-4 mb-4">
+                                <img src="https://picsum.photos/100?random=9" class="w-16 h-16 rounded-full object-cover">
+                                <div>
+                                    <p class="font-semibold text-gray-900">Ethan</p>
+                                    <p class="text-sm text-gray-600">Google UX Design Certificate</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-700">"Collaboration and mentorship opportunities made it worthwhile."</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 10 -->
+                    <div class="swiper-slide">
+                        <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                            <div class="flex items-center space-x-4 mb-4">
+                                <img src="https://picsum.photos/100?random=10" class="w-16 h-16 rounded-full object-cover">
+                                <div>
+                                    <p class="font-semibold text-gray-900">Olivia</p>
+                                    <p class="text-sm text-gray-600">Google Project Management Certificate</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-700">"I gained practical skills that I now use in my daily job."</p>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="mt-6 text-center">
-                <button id="show-more-btn"
-                    class="px-4 py-2 text-sm font-medium text-blue-600 border border-blue-600 rounded-lg hover:bg-blue-50">
-                    Show all FAQs
-                </button>
             </div>
         </div>
     </section>
 
 
+
+    @include('components.faq')
 @endsection
