@@ -1,58 +1,159 @@
-<section class="testimonials-section container my-10">
-    <div class="mb-5">
-        <h2 class="fw-bold">What Students Say About NurseExam Pro</h2>
-        <p class="text-muted">Trusted by thousands of nursing students worldwide for exam success.</p>
-    </div>
+<section class="bg-white py-16 px-6">
+    <div class="max-w-7xl mx-auto">
+        <h2 class="text-3xl text-left font-bold text-gray-900 mb-10">Success stories</h2>
 
-    @php
-    $testimonials = [
-    ['quote' => 'NurseExam Pro helped me pass my NCLEX on the first try!', 'name' => 'Emily Johnson', 'role' =>
-    'Registered Nurse'],
-    ['quote' => 'The mock tests are so realistic and helpful!', 'name' => 'Michael Lee', 'role' => 'Nursing Student'],
-    ['quote' => 'I loved the detailed explanations for every question.', 'name' => 'Sophia Martinez', 'role' => 'LPN
-    Candidate'],
-    ['quote' => 'Affordable, structured, and easy to use.', 'name' => 'James Carter', 'role' => 'BSN Graduate'],
-    ['quote' => 'Highly recommend for anyone preparing for nursing exams!', 'name' => 'Sarah Kim', 'role' => 'RN
-    Student'],
-    ['quote' => 'The study guides are very well-organized and clear.', 'name' => 'Daniel Scott', 'role' => 'Practical
-    Nurse'],
-    ['quote' => 'The platform saved me so much time during revision!', 'name' => 'Linda Brown', 'role' => 'NCLEX
-    Candidate'],
-    ['quote' => 'Love the mock exams. They feel like the real thing!', 'name' => 'Alex Green', 'role' => 'Nursing
-    Graduate'],
-    ];
-    @endphp
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
 
-    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-
-            @foreach(array_chunk($testimonials, 4) as $index => $testimonialChunk)
-            <div class="carousel-item {{ $index === 0 ? 'active' : '' }}">
-                <div class="row g-4">
-                    @foreach($testimonialChunk as $testimonial)
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="testimonial-card p-4 h-100 text-center">
-                            <div class="quote-icon">“</div>
-                            <p class="testimonial-text mb-4">{{ $testimonial['quote'] }}</p>
-                            <h6 class="fw-bold">{{ $testimonial['name'] }}</h6>
-                            <p class="text-muted">{{ $testimonial['role'] }}</p>
+                <div class="swiper-slide">
+                    <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                        <div class="flex items-center space-x-4 mb-4">
+                            <img src="{{ asset('images/imgi_10_100.jpg') }}"
+                                class="w-16 h-16 rounded-full object-cover">
+                            <div>
+                                <p class="font-semibold text-gray-900">Rachel L.</p>
+                                <p class="text-sm text-gray-600">Google UX Design Certificate</p>
+                            </div>
                         </div>
+                        <p class="text-gray-700">"I loved the process of going through the UX research..."</p>
                     </div>
-                    @endforeach
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                        <div class="flex items-center space-x-4 mb-4">
+                            <img src="{{ asset('images/imgi_11_100.jpg') }}"
+                                class="w-16 h-16 rounded-full object-cover">
+                            <div>
+                                <p class="font-semibold text-gray-900">Luc</p>
+                                <p class="text-sm text-gray-600">Google UX Design Certificate</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-700">"The program was extremely beneficial to my career..."</p>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                        <div class="flex items-center space-x-4 mb-4">
+                            <img src="{{ asset('images/imgi_12_100.jpg') }}"
+                                class="w-16 h-16 rounded-full object-cover">
+                            <div>
+                                <p class="font-semibold text-gray-900">Daniel A.</p>
+                                <p class="text-sm text-gray-600">Google IT Support Certificate</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-700">"I love my new job and the impact I can make."</p>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                        <div class="flex items-center space-x-4 mb-4">
+                            <img src="{{ asset('images/imgi_13_100.jpg') }}"
+                                class="w-16 h-16 rounded-full object-cover">
+                            <div>
+                                <p class="font-semibold text-gray-900">Lauren</p>
+                                <p class="text-sm text-gray-600">Google Project Management Certificate</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-700">"This program helped me reenter the workforce with confidence."</p>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                        <div class="flex items-center space-x-4 mb-4">
+                            <img src="{{ asset('images/imgi_14_100.jpg') }}"
+                                class="w-16 h-16 rounded-full object-cover">
+                            <div>
+                                <p class="font-semibold text-gray-900">Michael</p>
+                                <p class="text-sm text-gray-600">Google Data Analytics Certificate</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-700">"The skills I gained opened up new opportunities in my career."</p>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                        <div class="flex items-center space-x-4 mb-4">
+                            <img src="{{ asset('images/imgi_15_100.jpg') }}"
+                                class="w-16 h-16 rounded-full object-cover">
+                            <div>
+                                <p class="font-semibold text-gray-900">Sophia</p>
+                                <p class="text-sm text-gray-600">Google UX Design Certificate</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-700">"I built real projects that prepared me for client work."</p>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                        <div class="flex items-center space-x-4 mb-4">
+                            <img src="{{ asset('images/imgi_16_100.jpg') }}"
+                                class="w-16 h-16 rounded-full object-cover">
+                            <div>
+                                <p class="font-semibold text-gray-900">David</p>
+                                <p class="text-sm text-gray-600">Google IT Automation Certificate</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-700">"Automation skills gave me a strong edge in the job market."</p>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                        <div class="flex items-center space-x-4 mb-4">
+                            <img src="{{ asset('images/imgi_17_100.jpg') }}"
+                                class="w-16 h-16 rounded-full object-cover">
+                            <div>
+                                <p class="font-semibold text-gray-900">Amelia</p>
+                                <p class="text-sm text-gray-600">Google Data Analytics Certificate</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-700">"I transitioned into data science roles with this foundation."</p>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                        <div class="flex items-center space-x-4 mb-4">
+                            <img src="{{ asset('images/imgi_18_100.jpg') }}"
+                                class="w-16 h-16 rounded-full object-cover">
+                            <div>
+                                <p class="font-semibold text-gray-900">Ethan</p>
+                                <p class="text-sm text-gray-600">Google UX Design Certificate</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-700">"Collaboration and mentorship opportunities made it worthwhile."</p>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="flex flex-col items-start bg-gray-50 p-6 rounded-2xl shadow-sm">
+                        <div class="flex items-center space-x-4 mb-4">
+                            <img src="{{ asset('images/imgi_18_100.jpg') }}"
+                                class="w-16 h-16 rounded-full object-cover">
+                            <div>
+                                <p class="font-semibold text-gray-900">Olivia</p>
+                                <p class="text-sm text-gray-600">Google Project Management Certificate</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-700">"I gained practical skills that I now use in my daily job."</p>
+                    </div>
                 </div>
             </div>
-            @endforeach
-
         </div>
-
-        <!-- Controls -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
 </section>
