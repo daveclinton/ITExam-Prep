@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'About Us - WGU Practice Questions')
+@section('title', 'About Us - IT Practice Questions')
 
 @section('content')
     <section class="relative w-full h-[500px] flex items-center justify-center">
