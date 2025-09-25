@@ -138,10 +138,11 @@
                     </el-popover>
                 </div>
 
-                <a href="#" class="text-sm/6 font-semibold text-gray-900">Study Guides</a>
-                <a href="#" class="text-sm/6 font-semibold text-gray-900">Practice Tests</a>
-                <a href="#" class="text-sm/6 font-semibold text-gray-900">Resources</a>
-
+                <a href="/courses" class="text-sm/6 font-semibold text-gray-900">Study Guides</a>
+                <a href="/courses" class="text-sm/6 font-semibold text-gray-900">Practice Tests</a>
+                <a href="/courses" class="text-sm/6 font-semibold text-gray-900">Resources</a>
+                <a href="/contact" class="text-sm/6 font-semibold text-gray-900">Contact</a>
+                <a href="/about" class="text-sm/6 font-semibold text-gray-900">About</a>
             </el-popover-group>
 
             <div class="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -217,32 +218,30 @@
             <div>
                 <h2 class="mb-6 text-base font-semibold uppercase">Company</h2>
                 <ul class="space-y-3 text-base">
-                    <li><a href="#" class="hover:underline">About</a></li>
-                    <li><a href="#" class="hover:underline">Careers</a></li>
-                    <li><a href="#" class="hover:underline">Blog</a></li>
+                    <li><a href="/about" class="hover:underline">About</a></li>
                 </ul>
             </div>
             <div>
                 <h2 class="mb-6 text-base font-semibold uppercase">Help Center</h2>
                 <ul class="space-y-3 text-base">
-                    <li><a href="#" class="hover:underline">Support</a></li>
-                    <li><a href="#" class="hover:underline">Contact</a></li>
-                    <li><a href="#" class="hover:underline">Community</a></li>
+                    <li><a href="/contact" class="hover:underline">Support</a></li>
+                    <li><a href="/contact" class="hover:underline">Contact</a></li>
+                    <li><a href="/contact" class="hover:underline">Community</a></li>
                 </ul>
             </div>
             <div>
                 <h2 class="mb-6 text-base font-semibold uppercase">Legal</h2>
                 <ul class="space-y-3 text-base">
-                    <li><a href="#" class="hover:underline">Privacy Policy</a></li>
-                    <li><a href="#" class="hover:underline">Terms</a></li>
+                    <li><a href="/contact" class="hover:underline">Privacy Policy</a></li>
+                    <li><a href="/contact" class="hover:underline">Terms</a></li>
                 </ul>
             </div>
             <div>
                 <h2 class="mb-6 text-base font-semibold uppercase">Resources</h2>
                 <ul class="space-y-3 text-base">
-                    <li><a href="#" class="hover:underline">Exam Guides</a></li>
-                    <li><a href="#" class="hover:underline">Practice Tests</a></li>
-                    <li><a href="#" class="hover:underline">Downloads</a></li>
+                    <li><a href="/courses" class="hover:underline">Exam Guides</a></li>
+                    <li><a href="/courses" class="hover:underline">Practice Tests</a></li>
+                    <li><a href="/courses" class="hover:underline">Downloads</a></li>
                 </ul>
             </div>
         </div>
