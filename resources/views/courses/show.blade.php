@@ -3,7 +3,6 @@
 @section('title', $course['full_title'] . ' - IT Exam Practice')
 
 @section('content')
-
     <div class="max-w-7xl mx-auto p-6">
         <div class="text-sm text-gray-500 mb-4">
             <span>IT Exams</span> › <span>Exam Revision</span>
@@ -82,4 +81,5 @@
         </section>
 
     </div>
+
 @endsection
