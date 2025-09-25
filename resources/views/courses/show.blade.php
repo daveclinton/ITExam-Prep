@@ -82,4 +82,33 @@
 
     </div>
 
+    @include('components.testimonials')
+
 @endsection
+
+@push('scripts')
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            new Swiper(".mySwiper", {
+                slidesPerView: 1,
+                spaceBetween: 20,
+                loop: true,
+                autoplay: {
+                    delay: 2000,
+                    disableOnInteraction: false,
+                },
+                breakpoints: {
+                    640: {
+                        slidesPerView: 1
+                    },
+                    1024: {
+                        slidesPerView: 3
+                    },
+                    1440: {
+                        slidesPerView: 4
+                    },
+                }
+            });
+        });
+    </script>
+@endpush
